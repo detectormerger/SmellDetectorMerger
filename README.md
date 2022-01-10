@@ -37,10 +37,11 @@ In case the user is interested in getting results from a limited number of detec
 * Spaghetti Code _(Organic)_
 
 ### Installation
-In order to install the tool in Eclipse, follow the steps below:
-1. Download the jar file of the tool from the latest release
-2. Close Eclipse (in case there is an instance open)
-3. Copy the downloaded jar file and paste it in the _dropins_ folder (it is located in the installation directory of Eclipse)
-4. Open Eclipse and select _File -> Restart_ from the menu to make sure it's refreshed
+1. Download the code zip file or clone the repository
+2. Import the code from the zip file or the cloned repository in Eclipse
+3. Export to a jar by right clicking the project and selecting _Export..._ -> _Deployable plug-ins and fragments_ -> _Finish_
+4. Close any open Eclipse instances
+5. Copy the jar from the selected export folder and paste it in the _dropins_ folder inside the Eclipse installation directory
+6. Open Eclipse and select _File_ -> _Restart_
 
 After completing the previous steps, the tool can run by right-clicking the root folder of the desired project and selecting _SmellDetectorMerger_ followed by the desired smell to be detected.
